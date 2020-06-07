@@ -1,0 +1,188 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+	.login {
+		background-image: url(../images/banner1.png);
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: auto !important;
+		padding: 50px 15px !important;
+	}
+	.mui--text-title, h3 {
+
+		font-size: 18px !important;
+	}
+	.left {
+		padding: 100px 20px !important;
+		height: 75% !important;
+	}
+	.thank {
+		font-size: 18px !important;
+
+	}
+	.left .welcome {
+		padding-top: 5px !important;
+	}
+	.mui-form {
+		padding: 76px 20px !important;
+	}
+	.mui-form legend {
+		font-size: 20px !important;
+
+	}
+	.social-content p {
+		font-size: 16px !important;
+		
+	}
+	.social-content p::before {
+
+		width: 30px !important;
+		margin-left: -35px !important;
+	}
+	.social-content p::after {
+		width: 30px !important;
+		margin-left: 5px !important;
+	}
+	.social-icon ul li {
+
+		font-size: 14px !important; 
+		width: 30px !important;
+		height: 32px !important;
+	}
+	.social-icon {
+		margin: 0 0 30px -30px !important;
+	}
+	.sign::after {
+		width: 55px !important;
+		left: 42.7% !important;
+
+	}
+	.welcome::after {
+		left: 43% !important;
+		margin-top: 5px !important;
+	}
+	.p-left{
+		padding-left: 15px !important;
+	  }
+	  .p-right{
+		padding-right: 15 !important;
+	  }
+	  .remember {
+		font-size: 15px !important;
+	}
+	.forgot a {
+		font-size: 15px !important;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.login {
+		background-image: url(../images/banner1.png);
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: auto !important;
+		padding: 100px 25px !important;
+	}
+	.left {
+		padding: 130px 70px 80px 70px !important;
+	}
+	.sign::after {
+
+		left: 45% !important;
+
+	}
+	.welcome::after {
+		left: 43% !important;
+		margin-top: 5px !important;
+	}
+	.p-left{
+		padding-left: 15px !important;
+	  }
+	  .p-right{
+		padding-right: 15 !important;
+	  }
+	  .remember {
+		font-size: 15px !important;
+	}
+	.forgot a {
+		font-size: 15px !important;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.login {
+		background-image: url(../images/banner1.png);
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 100vh;
+		padding: 100px 25px !important;
+	}
+	.left {
+		font-family: "COCOGOOSE";
+		background-image: url(../images/leftbg.png);
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		padding: 139px 50px 80px !important;
+		color: #fff;
+		max-height: 80% !important;
+	}
+	.welcome::after {
+		left: 22% !important;
+		margin-top: 5px !important;
+	}
+	.footer p {
+		font-size: 10px !important;
+	}
+	.thank {
+		margin: 50px 0 60px 0;
+		font-size: 20px !important;
+		font-weight: 500;
+	}
+	/* right side */
+	.mui-form {
+		padding: 50px 40px !important;
+	}
+	.remember {
+		font-size: 14px !important;
+	}
+	.forgot a {
+		font-size: 12px !important;
+	}
+	}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+   
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.left {
+		font-family: "COCOGOOSE";
+		background-image: url(../images/leftbg.png);
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		padding: 160px 70px 138px 70px !important;
+		color: #fff;
+		max-height: 62%;
+	}
+
+}
+@media (min-width: 1600px) {
+	.welcome::after {
+		left: 32% !important;
+
+	}
+	.sign::after {
+		left: 65% !important;
+
+	}
+
+}

@@ -1,0 +1,288 @@
+@font-face{
+    font-family: "COCOGOOSE";
+    font-family: 'Source Sans Pro', sans-serif;
+    src: url(../font/Cocogoose\ Pro\ Semilight-trial.ttf);
+    src: url(../font/Cocogoose\ Pro\ Thin\ Trial.ttf);
+    src: url(../font/Cocogoose\ Pro\ Light\ Trial.ttf);
+    src: url(../font/Font\ Awesome\ 5\ Free-Regular-400.otf);
+}
+.login{
+    background-image: url(../images/banner1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 180px 150px;
+    
+}
+.m-auto{
+    margin:auto;
+}
+.left{
+    font-family: "COCOGOOSE";
+    background-image: url(../images/leftbg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 160px 70px 65px 70px;
+    color: #fff;
+    max-height: 51%;
+}
+.left img{
+    width: 45%;
+    height: auto;
+}
+.left .welcome{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+.welcome::after{
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 4px;
+    left: 28%;
+    margin-top: 10px;
+    border-radius: 25px;
+    background-color: #fff;
+}
+.thank{
+    margin: 50px 0 60px 0; 
+    font-size: 24px;
+    font-weight: 500;
+}
+.footer p{
+  font-family: "font-awsome";
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 13px;
+  padding:0 0 30px 0;
+}
+
+
+.mui-form{
+  font-family: 'Source Sans Pro', sans-serif;
+    background-color: #fff;
+    padding: 76px 70px 79px 70px;
+
+}
+.p-left{
+  padding-left: 0;
+}
+.p-right{
+  padding-right: 0;
+}
+
+
+.mui-checkbox{
+    color: #777777;
+}
+.btn-custom{
+    width: 100%;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: #1aa9fd;
+    color: #fff;
+}
+.btn-custom:hover{
+    background-color: #1aa9fd;
+    color: #fff;
+}
+.social{
+  margin-bottom: 30px;
+}
+.social-content{
+  margin: 15px 0;
+}
+.social-content p{
+    color: #cccccc;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.social-content p::before{
+    content: '';
+    position: absolute;
+    width: 57px;
+    height: 2px;
+    margin-top: 12px;
+    background-color: #cccccc;
+    margin-left: -70px;
+}
+.social-content p::after{
+    content: '';
+    position: absolute;
+    width: 57px;
+    height: 2px;
+    margin-top: 12px;
+    background-color: #cccccc;
+    margin-left: 15px;
+}
+/* checkbox color */
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 12px;
+    width: 12px;
+    background-color: #fff;
+    border: solid #515155;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  /* .container:hover input ~ .checkmark {
+    background-color: #fff;
+    
+  } */
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #515151;
+    margin: 5px;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 3px;
+    top: 1px;
+    width: 4px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 2px 1px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .remember{
+    color: #777777;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 5px;
+  }
+  .top-sign{
+    margin-bottom: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #222222;
+  }
+  .sign::after{
+    content: '';
+    position: absolute;
+    width: 65px;
+    height: 4px;
+    left: 66.7%;
+    margin-top: 40px;
+    border-radius: 25px;
+    background-color: #1aa9fd;
+}
+.mui-textfield>label {
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 100%;
+  color: #222222;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 15px;
+  overflow-x: visible;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.mui-textfield>input, .mui-textfield>textarea {
+  border: 1px solid #c2c2c2;
+  margin: 10px 0;
+  padding: 10px 10px;
+  font-weight: 400;
+  
+}
+.icon-after{
+  position: absolute;
+  right: 15px;
+  top: 35px;
+  color: #c7c5c5;
+}
+.forgot a{
+  color: #1aa9fd !important;
+  font-size: 17px;
+  font-weight: 400;
+}
+.social-icon{
+  margin:10px 0 35px 0;
+}
+.social-icon ul{
+  list-style: none;
+
+}
+.social-icon ul li{
+  display: inline;
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  padding: 8px 10px;
+  margin: 0 5px;
+  transition: 0.4s;
+}
+.social-icon ul li a{
+  color: #fff !important;
+}
+.social-icon ul li:first-child{
+  margin-left: 0;
+}
+.facebook{
+  background-color: #3b5998;
+  padding: 8px 12px !important;
+}
+.twitter{
+ background-color: #03a9f4;
+}
+.linkedin{
+ background-color: #0077b5;
+}
+.instagram{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+.sign-up{
+
+}
+.sign-up p{
+ font-size: 20px;
+ color: #222222;
+ font-weight: 400;
+}
